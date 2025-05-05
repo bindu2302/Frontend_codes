@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Selection,Radios,Files,Range</title>
+</head>
+<body>
+    <h1>Check box</h1>
+
+    <form>
+        <label>
+            <input type="checkbox" id="checkbox" name="checkbox" value = "option 1">Option 1
+        </label> <br>
+
+         <label>
+            <input type="checkbox" id="checkbox" name="checkbox" value = "option 1">Option 2
+        </label><br><br>
+
+        <h1>Radio buttons</h1>
+
+        <label>
+            <input type="radio" id="radio" name="gender" value="male"> Male
+        </label><br>
+
+        <label>
+            <input type="radio" id="radio" name="gender" value="female"> Female
+        </label><br><br>
+
+        <h1>File upload</h1>
+        <label for="fileUpload">Resume upload</label>
+        <input type="file" id="fileUpload" name="file" value="resume" accept=".jpg, .pdf, .png"><br>
+
+        <h1>Select Range: </h1>
+        <label for="volume">Volume</label>
+        <input type="range" id="volume" name="volume" min="0" max="100" value="50"><br><br>
+
+
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

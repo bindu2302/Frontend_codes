@@ -1,0 +1,60 @@
+<!-- <script>
+    function scopeVar() {
+        var city = "Mumbai"
+        let country = "India"
+
+        console.log("City: " + city)
+        console.log("Country: " + country)
+    }
+
+scopeVar()
+
+console.log("outside Country: " + country)
+</script> -->
+
+<script>
+    function typ1() {
+        console.log("hello!");
+    }
+typ1();
+
+function typ2(name) {
+    console.log("Hello! " + name);
+}
+typ2("bindu");
+
+
+function typ3(){
+    return new Date().getFullYear()
+}
+let year = typ3();
+console.log("full year: " + year);
+
+function typ4(a,b) {
+    return a+b;
+}
+
+let add = typ4(10,20);
+console.log("Addition: ", add);
+
+
+// function declaration
+function multiply1(x) {
+    return x * x;
+}
+console.log(multiply1(2));
+
+// function expression
+let multiply2 = function (x) {
+    return x * x;
+}
+console.log(multiply2(3))
+
+// arrow function
+
+let multiply3 = (x) => x*x;
+console.log(multiply3(4))
+
+</script>
+
+
