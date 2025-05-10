@@ -1,0 +1,38 @@
+.uppercase {
+    text-transform: uppercase;
+}
+
+.title {
+    color: teal;
+}
+
+#large-title {
+    background-color: cadetblue;
+    font-family: cursive;
+    width: 50%;
+    text-align: center;
+
+}
+
+input[type="email"] {
+    background-color: #d3d3d3;
+}
+
+div p {
+    color:blue;
+    font-size: 18px;
+}
+
+ul>li {
+    list-style-type: circle;
+    color: red;
+}
+
+h2 + p {
+    color:green;
+    font-style: italic;
+}
+
+h3 ~ p {
+    color:purple;
+}
